@@ -1,0 +1,119 @@
+# Ignore all files using an opt-inn approach
+*
+
+# Add .gitignore and .gitattributes
+!.gitignore
+!.gitattributes
+!.fantomasignore
+
+# Add license
+!LICENSE.txt
+
+# Add todo list
+!ToDo.txt
+
+# Add md files
+!*.md
+
+# Add solution file
+!*.sln
+
+# Add fsharp project files
+!*.fsproj
+
+# Add configurarion files
+!*app.config
+
+# Add fsharp source files
+!*.fs
+!*.fsx
+
+# add editorconfig
+!.editorconfig
+
+# add eslint
+!eslint.config.js
+
+# add global.json
+!global.json
+
+# Add package.json and webpackconfig
+!package.json
+!package-lock.json
+!vite.config.js
+!vite.config.ts
+!vite.config.mjs
+
+# Add command and batch files
+!*.cmd
+!*.sh
+
+# ignore release and publish nuget commands
+release.cmd
+publishnuget.cmd
+
+# Add dotnet tool config
+!/.config/
+!/.config/*.json
+
+# Add Docker files
+!Dockerfile
+!.dockerignore
+
+# Add paket
+!/.paket/
+!/.paket/paket.exe
+!/.paket/*.targets
+
+# Add dependencies file
+!paket.dependencies
+!paket.lock
+!paket.references
+!paket.template
+
+
+# Add github actions
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+!.github/ISSUE_TEMPLATE/
+
+
+# Add source files
+!/scripts/
+!/src/
+!/src/Shared/
+!/src/Server/
+!/src/Server/resources/
+!/src/Server/resources/*.csv
+!/src/Server/Scripts/
+!/src/Server/Scripts/resources/
+!/src/Server/Scripts/resources/*.csv
+!/src/Client/
+!/src/Client/*.css
+!/src/Client/*.html
+!/src/Client/public/
+!/src/Client/public/*.*
+!/src/Client/Components/
+!/src/Client/Pages/
+!/data/
+!/data/mrdm/
+!/data/cache/
+!/src/Informedica.PICE.Lib/
+!/src/Informedica.PICE.Lib/pice.xlsx
+!/src/Informedica.PICE.Lib/Scripts/
+!/src/Informedica.PimPrism.Lib/
+!/src/Informedica.PimPrism.Lib/Scripts
+!/src/Informedica.Utils.Lib/
+!/src/Informedica.Utils.Lib/BCL/
+!/src/Informedica.Utils.Lib/Scripts/
+
+# Add test files
+
+# Add lib references
+!/libs/
+!/libs/*.dll
+
+# data folder and files
+!/resources/
+!/resources/*.csv
